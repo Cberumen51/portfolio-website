@@ -123,3 +123,201 @@ li a {
 .resume-cta:hover {
   background-color: rgba(100, 100, 100, 0.2);
 }
+
+/* PROJECTS SECTION */
+
+.projects-container {
+  width: 100%;
+  height: auto;
+}
+
+.project-header {
+  font-size: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: wrap;
+}
+
+.tetris-project {
+  width: 400px;
+  height: 400px;
+  background: #fff;
+  position: relative;
+  box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 50px;
+  background-image: url(/Portfolio-website/images/tetris.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.game-of-life-project {
+  width: 400px;
+  height: 400px;
+  background: #fff;
+  position: relative;
+  box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 50px;
+  background-image: url(/Portfolio-website/images/tetris.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.nasa-project {
+  width: 400px;
+  height: 400px;
+  background: #fff;
+  position: relative;
+  box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 50px;
+  background-image: url(/Portfolio-website/images/tetris.png);
+  background-size: cover;
+  background-position: left center;
+}
+
+.text-container {
+  position: absolute;
+  height: 75px;
+  width: 100%;
+  z-index: 2;
+  left: 0;
+  bottom: 0;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.text-container:hover {
+  height: 250px;
+}
+
+.name {
+  margin-top: 10px;
+  color: var(--dark-blue);
+  font-size: 2rem;
+}
+
+.content {
+  padding: 25px 0;
+  color: var(--mid-blue)
+}
+
+.button {
+  border: 5px solid var(--blue-text);
+  width: 160px;
+  box-shadow: -15px 7 px 30px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  margin-bottom: 50px;
+}
+
+/* ABOUT SECTION */
+
+.about-container {
+  margin: 10%;
+  width: 80%;
+  height: auto;
+  background-color: #f8f8f8;
+  box-shadow: -15px 7 px 30px rgba(0, 0, 0, 0.2);
+}
+
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: wrap;
+}
+
+.about-image {
+  height: 450px;
+  width: 400px;
+  background-image: url(/Portfolio-website/images/Professtional\ Pic.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.about-text {
+  height: auto;
+  width: 40%;
+  font-size: 1.5rem;
+  margin-left: 100px;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2rem;
+  width: 30%;
+  margin: 25% 35%;
+  padding-top: 30px;
+}
+
+/* MOBILE VIEW */
+@media (max-width:768px) {
+  #nav {
+    display: none;
+  }
+  #mobile-nav {
+    display: block;
+  }
+  .mobile-nav-bar {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 5;
+  }
+
+  ul {
+    background-color: rgba(0, 0, 0, 0.625);
+  }
+
+  .tetris-project {
+    width: 250px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(/Portfolio-website/images/tetris.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f8f8;
+    box-shadow: 15px 7px 30px 7px rgba(0, 0, 0, 0.2);
+  }
+
+  .about-image {
+    margin-top: 20px;
+    height: 300px;
+    width: 225px;
+    background-image: url(/Portfolio-website/images/Professtional\ Pic.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .about-text{
+    margin-left: 20px;
+    width: 100%;
+    font-size: 0.75rem;
+  }
+  .social-icons i {
+    font-size: 2rem;
+    padding: 10px;
+    margin-left: -10px;
+  }
+}
