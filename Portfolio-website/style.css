@@ -162,12 +162,13 @@ li a {
 .game-of-life-project {
   width: 400px;
   height: 400px;
-  background: #fff;
+  background: #000000;
   position: relative;
   box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   margin: 50px;
-  background-image: url(/Portfolio-website/images/tetris.png);
+  background-image: url(/Portfolio-website/images/conway-game.png);
+  background-color: #000000;
   background-size: cover;
   background-position: center;
 }
@@ -180,9 +181,9 @@ li a {
   box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   margin: 50px;
-  background-image: url(/Portfolio-website/images/tetris.png);
+  background-image: url(/Portfolio-website/images/nasa-api.png);
   background-size: cover;
-  background-position: left center;
+  background-position: center;
 }
 
 .text-container {
